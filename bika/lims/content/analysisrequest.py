@@ -758,7 +758,7 @@ class AnalysisRequest(BaseFolder):
         value = self.getProfile().Title() if self.getProfile() else ''
         return value
 
-    def setPublicationSpecification(self):
+    def setPublicationSpecification(self, value):
         "Never contains a value; this field is here for the UI."
         return None
 
